@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="cz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="icon" href="logo.png" type="image/x-logo">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Opakovani HTML</h1>
+    <br>Lorem <br> dolor, sit &nbsp; amet <strong>onsectetur adipisicing elit.</strong> <em>Ratione dolore sapiente</em> nesciunt ea debitis R <sub>1</sub> =  4 <sup>2</sup> cupiditate? Sapiente cupiditate temporibus vel porro accusamus ea eligendi molestiae sequi, corrupti harum, a unde aperiam.</br></p>
+    <pre>Lorem 
+            ipsum dolor sit amet consectetur, adipisicing elit. Ducimus minus voluptate est, vero, dignissimos pariatur maxime ut commodi saepe molestiae tempore nisi eius. Distinctio porro libero nisi repellendus, temporibus et!</pre>
+    <h2>Nerazeny seznam</h2>
+    <ul style="list-style-type: georgian;">
+        <li>Položka 1</li>
+        <li>Položka 2</li>
+        <li>Položka 3</li>
+    </ul>
+    <h2>Razeny seznam</h2>
+    <ol type="I">
+        <li>Položka 1</li>
+        <li>Položka 2</li>
+        <li>Položka 3</li>
+        <li>Položka 1</li>
+        <li>Položka 2</li>
+        <li>Položka 3</li>
+        <ol>
+            <li>Položka 1</li>
+        <li>Položka 2</li>
+        <li>Položka 3</li>
+        </ol>
+    </ol>
+    <a href="kontakty.html">kontakty</a>
+    <img src="vlak.jpg" width="700" height="500" alt="obrazek" title="vlacek">
+    <table>
+        <thead>
+        <tr>
+            <th>1.sloupik</th>
+            <th>2.sloupik</th>
+            <th>3.sloupik</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td colspan="3">1</td>
+        </tr>
+        <tr>
+            <td colspan="2">1</td>
+            <td>v</td>
+        </tr>
+        </tbody>
+    </table>
+    <input type="button" value="Tlacitko" onclick="alert(Number(document.getElementById('vstup1').value + document.getElementById('vstup2').value ))">
+    <input id="vstup1" type="number" value="1" onchange="alert(this.value)">
+    <input id="vstup2" type="number" value="1" onchange="alert(this.value)">
+</body>
+</html>
